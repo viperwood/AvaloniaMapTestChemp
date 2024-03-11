@@ -1,0 +1,24 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AvaloniaMapChemp.MainWindow"
+        Title="AvaloniaMapChemp">
+        <Grid RowDefinitions="50 * 50" ColumnDefinitions="* * *">
+                <StackPanel Grid.Column="0" Grid.Row="0">
+                        <Button Content="Назад" Margin="10" Click="BeackButton"/>
+                </StackPanel>
+                <StackPanel Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3">
+                        <Image Source="map1.png"/>
+                </StackPanel>
+                <Canvas Grid.Column="0" Grid.Row="1">
+                        <Ellipse Name="Ellipse1" Width="20" Height="20" Margin="300 120"/>
+                        <Ellipse Name="Ellipse2" Width="20" Height="20" Margin="400 230"/>
+                        <Ellipse Name="Ellipse3" Width="20" Height="20" Margin="240 200"/>
+                        <Ellipse Name="Ellipse4" Width="20" Height="20" Margin="80 200"/>
+                        <Ellipse Name="Ellipse5" Width="20" Height="20" Margin="  140 200"/>
+                        <Ellipse Name="Ellipse6" Width="20" Height="20" Margin="200 50"/>
+                </Canvas>
+        </Grid>
+</Window>

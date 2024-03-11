@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="AvaloniaMapChemp/ListInfoWindow.axaml" value="AvaloniaMapChemp/AvaloniaMapChemp.csproj" />
+        <entry key="AvaloniaMapChemp/MainWindow.axaml" value="AvaloniaMapChemp/AvaloniaMapChemp.csproj" />
+        <entry key="AvaloniaMapChemp/MenuWindow.axaml" value="AvaloniaMapChemp/AvaloniaMapChemp.csproj" />
+        <entry key="AvaloniaMapChemp/RegisterMoveWindow.axaml" value="AvaloniaMapChemp/AvaloniaMapChemp.csproj" />
+        <entry key="AvaloniaMapChemp/Test.axaml" value="AvaloniaMapChemp/AvaloniaMapChemp.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
